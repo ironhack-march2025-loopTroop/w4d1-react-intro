@@ -1,6 +1,5 @@
 
 function Footer(props){
-    console.log(props);
     
     return (
         <>
