@@ -1,8 +1,11 @@
 
-function Footer(){
+function Footer(props){
+    console.log(props);
+    
     return (
         <>
-            <h4>Loop Troop, 2025</h4>
+            <h4>This is the footer</h4>
+            {props.children}
         </>
     )
 }
